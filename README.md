@@ -1,4 +1,4 @@
-#this project is deployed on Netlify
+#this project is deployed on Heroku
 Runs this link in your browser
 
 # Getting Started with Create React App

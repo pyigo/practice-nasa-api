@@ -4,11 +4,8 @@ import Heart from 'react-heart'
 const NASAData = (props) => {
     const [active, setActive] = useState(false)
 
-    // 
-    // 
-    // 
-    // 
-    console.log('we are inside NASAData', props)
+    // rendering items by dispaying them
+    console.log('NASAData', props)
     return (
         <div className='nasa-data' key={props.item.data[0].nasa_id}>
             <h3>{props.item.data[0].title}</h3>

@@ -1,8 +1,23 @@
+@keyframes frames {
+}
+
 #nasa-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   row-gap: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1:hover {
+  background-color: darkcyan;
+}
+
+.brought-by {
+  text-align: center;
 }
 
 .nasa-data {
@@ -18,4 +33,12 @@
 
 .heart {
   width: 2rem;
+}
+
+input {
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: dimgrey;
 }
